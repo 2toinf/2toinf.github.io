@@ -129,7 +129,7 @@ nav a {
 
 .portrait-frame {
   width: 188px;
-  height: 235px;
+  height: 282px;
   justify-self: end;
   overflow: hidden;
   border: 1px solid var(--border);
@@ -140,7 +140,7 @@ nav a {
 .portrait {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
 }
 
@@ -441,7 +441,7 @@ footer {
 
   .portrait-frame {
     width: 142px;
-    height: 178px;
+    height: 213px;
   }
 
   .intro h1 {
@@ -485,7 +485,7 @@ footer {
 
   .portrait-frame {
     width: 150px;
-    height: 188px;
+    height: 225px;
     justify-self: start;
     order: -1;
   }
