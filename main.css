@@ -127,14 +127,21 @@ nav a {
   border-bottom: 1px solid var(--border);
 }
 
-.portrait {
+.portrait-frame {
   width: 188px;
   height: 235px;
   justify-self: end;
-  object-fit: cover;
-  object-position: center 27%;
+  overflow: hidden;
   border: 1px solid var(--border);
   border-radius: 3px;
+  background: #eee;
+}
+
+.portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .intro-copy {
@@ -432,7 +439,7 @@ footer {
     padding-top: 42px;
   }
 
-  .portrait {
+  .portrait-frame {
     width: 142px;
     height: 178px;
   }
@@ -476,7 +483,7 @@ footer {
     gap: 18px;
   }
 
-  .portrait {
+  .portrait-frame {
     width: 150px;
     height: 188px;
     justify-self: start;
